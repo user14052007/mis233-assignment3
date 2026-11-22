@@ -1,7 +1,7 @@
 # Task Manager — MIS 233 Assignment 3
 
 - **Student:** Duru Purcu (2024502150)
-
+- **Repository:** https://github.com/user14052007/mis233-assignment3
 ## Reducer & State Architecture Explanation
 
 This application manages task state through a centralized `taskReducer` function paired with React's `useReducer` hook in TypeScript. The state holds a `tasks` array (`Task[]`), the active `filter` (`'all' | 'todo' | 'in-progress' | 'done'`), and a `past` history stack (`Task[][]`) used to support undo operations.
